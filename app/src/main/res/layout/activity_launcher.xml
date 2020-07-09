@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".LauncherActivity">
+
+    <Button
+        android:id="@+id/intentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="3dp"
+        android:background="@color/colorT"
+        android:text="Intent and Intent Filter"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/serviceBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+
+    <Button
+        android:id="@+id/fragmentBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorT"
+        android:text="FRAGMENTS"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/retrofit_btn" />
+
+    <Button
+        android:id="@+id/serviceBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorT"
+        android:text="Service"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/broadcastBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intentBtn" />
+
+    <Button
+        android:id="@+id/broadcastBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="@color/colorT"
+        android:text="BROADCAST RECEIVER"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/recycler_view_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/serviceBtn" />
+
+    <Button
+        android:id="@+id/recycler_view_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:background="@color/colorT"
+        android:text="Recycler View "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/viewpager_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/broadcastBtn" />
+
+    <Button
+        android:id="@+id/viewpager_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@color/colorT"
+        android:text="ViewPager"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/viewpager2_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycler_view_btn" />
+
+    <Button
+        android:id="@+id/viewpager2_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:background="@color/colorT"
+        android:text="ViewPager2"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_sheet_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewpager_btn" />
+
+    <Button
+        android:id="@+id/bottom_sheet_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorT"
+        android:text="Bottom Sheet"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/okhttp_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewpager2_btn" />
+
+    <Button
+        android:id="@+id/okhttp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorT"
+        android:text="OkHttp AND Threading"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/retrofit_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bottom_sheet_btn" />
+
+    <Button
+        android:id="@+id/retrofit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorT"
+        android:text="RETROFIT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/fragmentBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/okhttp_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

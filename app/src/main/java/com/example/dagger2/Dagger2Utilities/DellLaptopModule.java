@@ -1,4 +1,4 @@
-package com.example.androidlearning.Dagger2Utilities;
+package com.example.dagger2.Dagger2Utilities;
 
 import dagger.Module;
 import dagger.Provides;
@@ -17,7 +17,7 @@ public class DellLaptopModule {
 
     @Provides
     Laptop provideLaptop(DellLaptop laptop){
-        return laptop;
+        return (Laptop) laptop;
     }
 
 }

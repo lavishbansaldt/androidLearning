@@ -1,4 +1,4 @@
-package com.example.androidlearning.Dagger2Utilities;
+package com.example.dagger2.Dagger2Utilities;
 
 
 import dagger.Binds;
@@ -8,7 +8,7 @@ import com.example.androidlearning.Dagger2Utilities.AppleLaptop;
 abstract public class AppleLaptopModule {
 
     @Binds
-    abstract Laptop bindLaptop(AppleLaptop laptop);
+    abstract AppleLaptop bindLaptop(AppleLaptop laptop);
 
 
 }

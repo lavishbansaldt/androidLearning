@@ -1,4 +1,4 @@
-package com.example.androidlearning.RxJavaRetrofit;
+package com.example.rxjava.RxJavaRetrofit;
 
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;

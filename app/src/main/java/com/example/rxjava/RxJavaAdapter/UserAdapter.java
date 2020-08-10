@@ -1,4 +1,4 @@
-package com.example.androidlearning.RxJavaAdapter;
+package com.example.rxjava.RxJavaAdapter;
 
 import android.view.LayoutInflater;
 import android.view.View;

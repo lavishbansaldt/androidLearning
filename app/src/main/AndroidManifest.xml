@@ -33,6 +33,7 @@
         <activity android:name=".BroadcastReceiverDemo" />
         <activity android:name=".RxJava" />
         <activity android:name=".Dagger2Demo" />
+        <activity android:name=".StorageDemo" />
 
 
         <service android:name=".ServiceDemoMyService" />

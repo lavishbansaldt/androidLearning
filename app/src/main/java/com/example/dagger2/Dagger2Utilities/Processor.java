@@ -1,4 +1,4 @@
-package com.example.androidlearning.Dagger2Utilities;
+package com.example.dagger2.Dagger2Utilities;
 
 import android.util.Log;
 

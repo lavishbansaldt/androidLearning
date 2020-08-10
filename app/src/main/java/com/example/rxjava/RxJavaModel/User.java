@@ -1,4 +1,4 @@
-package com.example.androidlearning.RxJavaModel;
+package com.example.rxjava.RxJavaModel;
 
 import com.google.gson.annotations.SerializedName;
 

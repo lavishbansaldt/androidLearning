@@ -23,6 +23,7 @@ public class LauncherActivity extends AppCompatActivity {
     private Button mRxJavaBtn;
     private Button mBottomSheetBtn;
     private Button mDagger2Btn;
+    private Button mStorageBtn;
 
 
 
@@ -45,7 +46,7 @@ public class LauncherActivity extends AppCompatActivity {
         mRetrofitBtn = findViewById(R.id.retrofit_btn);
         mRxJavaBtn = findViewById(R.id.rx_java_btn);
         mDagger2Btn = findViewById(R.id.dagger_btn);
-
+        mStorageBtn = findViewById(R.id.storage_btn);
 
         final Context ctx= this;
 
@@ -150,12 +151,21 @@ public class LauncherActivity extends AppCompatActivity {
         mDagger2Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.i("msg", "ok");
+
                 Intent dagger2Intent = new Intent(ctx, Dagger2Demo.class);
                 startActivity(dagger2Intent);
             }
         });
 
+
+        mStorageBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i("msg", "ok");
+                Intent storageIntent = new Intent(ctx, StorageDemo.class);
+                startActivity(storageIntent);
+            }
+        });
 
 
 

@@ -1,9 +1,9 @@
-package com.example.androidlearning;
+package com.example.rxjava;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
+import com.example.androidlearning.R;
 import android.os.Bundle;
 
 import com.example.androidlearning.RxJavaAdapter.UserAdapter;

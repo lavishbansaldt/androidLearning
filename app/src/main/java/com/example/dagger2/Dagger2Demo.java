@@ -1,4 +1,4 @@
-package com.example.androidlearning;
+package com.example.dagger2;
 
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,6 +13,7 @@ import com.example.androidlearning.Dagger2Utilities.OperatingSystem;
 import com.example.androidlearning.Dagger2Utilities.Processor;
 import com.example.androidlearning.Dagger2Utilities.SamsungBatteryModule;
 import com.example.androidlearning.Dagger2Utilities.UtilitySoftwares;
+import com.example.androidlearning.R;
 
 import javax.inject.Inject;
 

@@ -1,4 +1,4 @@
-package com.example.androidlearning.RxJavaRetrofit;
+package com.example.rxjava.RxJavaRetrofit;
 
 import com.example.androidlearning.RxJavaModel.User;
 

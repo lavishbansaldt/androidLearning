@@ -20,25 +20,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".IntentDemo"></activity>
-        <activity android:name=".IntentDemoActivity2"></activity>
-        <activity android:name=".ServiceDemo"></activity>
-        <activity android:name=".FragmentsDemo"></activity>
-        <activity android:name=".RecyclerViewDemo"></activity>
-        <activity android:name=".ViewPagerDemo"></activity>
-        <activity android:name=".ViewPager2Demo"></activity>
-        <activity android:name=".BottomSheetDemo"></activity>
-        <activity android:name=".OkHttpAndThreadingDemo"></activity>
-        <activity android:name=".RetrofitDemo"></activity>
-        <activity android:name=".BroadcastReceiverDemo"></activity>
-
-
-        <service android:name=".ServiceDemoMyService"></service>
+        <activity android:name=".IntentDemo" />
+        <activity android:name=".IntentDemoActivity2" />
+        <activity android:name=".ServiceDemo" />
+        <activity android:name=".FragmentsDemo" />
+        <activity android:name=".RecyclerViewDemo" />
+        <activity android:name=".ViewPagerDemo" />
+        <activity android:name=".ViewPager2Demo" />
+        <activity android:name=".BottomSheetDemo" />
+        <activity android:name=".OkHttpAndThreadingDemo" />
+        <activity android:name=".RetrofitDemo" />
+        <activity android:name=".BroadcastReceiverDemo" />
+        <activity android:name=".RxJava" />
+        <activity android:name=".Dagger2Demo" />
 
 
-
-
+        <service android:name=".ServiceDemoMyService" />
     </application>
 
 </manifest>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Android Learning</string>
+    <string name="com.androidlearning.sharedpreferences.USERNAME"> Username </string>
+    <string name="com.androidlearning.sharedpreferences.PASSWORD"> Password </string>
 </resources>

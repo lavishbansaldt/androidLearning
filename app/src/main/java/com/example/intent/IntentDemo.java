@@ -34,7 +34,6 @@ public class IntentDemo extends AppCompatActivity {
         if(bundle!= null){
             title.setText("Reply Received");
             reply.setText(bundle.getString(IntentDemoActivity2.REPLY));
-            //setting text
         }
 
     }
